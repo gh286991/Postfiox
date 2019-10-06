@@ -16,11 +16,7 @@ There is a detailed expound for the concept.
 
 ## Start
 
-<<<<<<< HEAD
 This projecet is made by create-react-app.
-=======
-This projecet is made by create-great-app.
->>>>>>> cda32f16498d3f4287d178b29c72068037a69eae
 
 Using the yarn in the terminal can start it , following the command as below.
 
