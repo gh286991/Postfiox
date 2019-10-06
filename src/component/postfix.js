@@ -5,6 +5,10 @@ const container = {
   marginTop: '40px',
 };
 
+const note = {
+  color: '#adadad',
+};
+
 class Postfix extends React.Component {
   constructor(props) {
     super(props);
@@ -40,7 +44,8 @@ class Postfix extends React.Component {
     return (
       <div style={container}>
         <div>
-                輸入算式
+                輸入算式:
+          <div style={note}> 符號：+,-,x,/  ex:1+3x6/2 </div>
         </div>
         <input onChange={this.inputChange} />
         <div>

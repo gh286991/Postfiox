@@ -3,7 +3,7 @@ import Stack from './stack';
 const priority = (el) => {
   if (el === '+' || el === '-') {
     return 1;
-  } if (el === 'x' || el === '÷') {
+  } if (el === 'x' || el === '/') {
     return 2;
   } return 0;
 };
@@ -13,7 +13,7 @@ export const toPostfix = function toPostfix(infix) {
   const postfix = [];
 
   infix.forEach((el) => {
-    if ('+-x÷'.indexOf(el) === -1) {
+    if ('+-x/'.indexOf(el) === -1) {
       postfix.push(el);
     } else {
       while (!stack.isEmpty()
@@ -39,7 +39,7 @@ export const postfixCal = function postfixCal(postfix) {
   const formula = postfix;
 
   formula.forEach((el) => {
-    if ('+-x÷'.indexOf(el) === -1) {
+    if ('+-x/'.indexOf(el) === -1) {
       stack.push(el);
     } else {
       const last = Number(stack.pop());
@@ -59,7 +59,7 @@ export const postfixCal = function postfixCal(postfix) {
           cal = last * penultimate;
           stack.push(cal);
           break;
-        case '÷':
+        case '/':
           cal = penultimate / last;
           stack.push(cal);
           break;
