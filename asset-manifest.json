@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Postfix/static/css/main.b100e6da.chunk.css",
+    "main.js": "/Postfix/static/js/main.aa547a19.chunk.js",
+    "main.js.map": "/Postfix/static/js/main.aa547a19.chunk.js.map",
+    "runtime-main.js": "/Postfix/static/js/runtime-main.54ef6cbb.js",
+    "runtime-main.js.map": "/Postfix/static/js/runtime-main.54ef6cbb.js.map",
+    "static/js/2.9a693493.chunk.js": "/Postfix/static/js/2.9a693493.chunk.js",
+    "static/js/2.9a693493.chunk.js.map": "/Postfix/static/js/2.9a693493.chunk.js.map",
+    "index.html": "/Postfix/index.html",
+    "precache-manifest.1a7a6a1a228712c550eb5ccc3ee0d644.js": "/Postfix/precache-manifest.1a7a6a1a228712c550eb5ccc3ee0d644.js",
+    "service-worker.js": "/Postfix/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/Postfix/static/css/main.b100e6da.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54ef6cbb.js",
+    "static/js/2.9a693493.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.aa547a19.chunk.js"
+  ]
+}
