@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aba6d47d827f2484c5d8c6e17af2a8aa",
+    "revision": "ebb1bc0ec859477a77a2530acc5eb5b7",
     "url": "/Postfix/index.html"
   },
   {
-    "revision": "dc3c7bd221f513c81456",
+    "revision": "b8afb713569d1476a915",
     "url": "/Postfix/static/css/main.b100e6da.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Postfix/static/js/2.9a693493.chunk.js"
   },
   {
-    "revision": "dc3c7bd221f513c81456",
-    "url": "/Postfix/static/js/main.aa547a19.chunk.js"
+    "revision": "b8afb713569d1476a915",
+    "url": "/Postfix/static/js/main.51559bc9.chunk.js"
   },
   {
     "revision": "5aee16c28e7c6bae4dd4",
