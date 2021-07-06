@@ -44,7 +44,7 @@ class Postfix extends React.Component {
     return (
       <div style={container}>
         <div>
-                輸入算式:
+            輸入算式:
           <div style={note}> 符號：+,-,x,/  ex:1+3x6/2 </div>
         </div>
         <input onChange={this.inputChange} />
@@ -61,6 +61,7 @@ class Postfix extends React.Component {
           {' '}
           {/* eslint-disable no-nested-ternary */}
           { Number.isNaN(number) ? number === null ? null : '輸入錯誤' : number}
+          測試
         </div>
 
       </div>
